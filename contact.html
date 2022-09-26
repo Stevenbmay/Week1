@@ -6,10 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+    <div class="header height50px centerText bmargin10px fontlink">
+        <div class="fwidth33 blueBack whiteText hoverLink ">
+            <a class="whiteText full-box height50px" href="index.html">
+                <h2>Index</h2>
+            </a>
+        </div>
+        <div class="fwidth33 blueBack whiteText hoverLink ">
+            <a class="whiteText full-box height50px" href="forsale.html">
+                <h2>For Sale</h2>
+            </a>
+        </div>
+        <div class="fwidth33 lblueBack whiteText hoverLink ">
+            <a class="whiteText full-box height50px" href="contact.html">
+                <h2>Contact</h2>
+            </a>
+        </div>
+    </div>
+    <form class="main-contact redBack fontmain">
+        <div>
+        <div class="bmargin10px">
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="example@example.com"/>
+        </div>
+        <div class="bmargin10px">
+            <label for="text">First Name:</label>
+            <input type="text" name="frist-name" placeholder="First Name"/>
+        </div>
+        <di class="bmargin10px">
+            <label for="text">Last Name:</label>
+            <input type="text" name="last-name" placeholder="Last Name"/>
+        </div>
+        
+        <div class="bmargin10px">
+            <label for="text">Comment:</label>
+        </br>
+            <textarea  id="aaa"></textarea>
+        </div>
+        <div class="header bmargin10px raidosm">
+            <div class="fwidth33 yellowBack margin5px">
+                <input type="radio" checked="checked" name="radio" value="Raido-1"/>
+                <label for="radio1">Raido 1</label>
+            </div>
+            <div class="fwidth33 yellowBack margin5px">
+                <input type="radio" name="radio" value="Raido-2"/>
+                <label for="radio1">Raido 2</label>
+            </div>
+            <div class="fwidth33 yellowBack margin5px">
+                <input type="radio" name="radio" value="Raido-3"/>
+                <label for="radio1">Raido 3</label>
+            </div>
+        </div>
+        <div class="submit">
+            <input id="submit" type="submit" value="Submit">
+        </div>
+</form>
+<footer class="footer">
+    <h2 class="centerText">The Footer</h2>
+</footer>
 </body>
-
 </html>

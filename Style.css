@@ -1,0 +1,166 @@
+.header {
+    display: flex;
+    flex-flow: row;
+}
+
+.footer {
+    width: 100%;
+    height: 75px;
+    background-image: url(https://cdn.discordapp.com/attachments/1022607548966252608/1022981329320673321/Screenshot_2022-09-23_162216.png);
+    background-color: black;
+}
+
+.marginSides {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fwidth33 {
+    flex-basis: calc(100%/3);
+}
+.fwidth50{
+    flex-basis: 50%;
+}
+.full-box{
+    display: block;
+}
+.fontlink{
+    font-family: 'Roboto', sans-serif;
+
+}
+.fontmain{
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.blueBack {
+    background-color: blue;
+}
+
+.lblueBack {
+    background-color: rgb(44, 131, 244);
+}
+
+.purpleBack {
+    background-color: purple;
+}
+
+.yellowBack {
+    background-color: yellow;
+}
+
+.redBack {
+    background-color: red;
+}
+
+.greenBack {
+    background-color: green;
+}
+
+.whiteText {
+    color: white;
+}
+
+.hoverLink:hover {
+    background-color: rgb(82, 171, 239);
+}
+
+.height50px {
+    min-height: 50px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.leftPagei {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 75%;
+}
+.leftPagef {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 90%;
+}
+
+.rightPagei {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 25%;
+}
+.rightPagef {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 10%;
+}
+
+.box {
+    flex: 0 1 calc(100% / 3 - 10px);
+    margin: 5px;
+}
+
+.box2 {
+    flex-basis: 100%;
+    margin: 5px;
+}
+
+.boxForSaleR {
+    flex: 0 1 calc(50% - 10px);
+    margin: 5px;
+}
+
+.margin5px {
+    margin: 5px;
+}
+.margin10px {
+    margin: 10px;
+}
+
+@media (max-width: 720px) {
+    .main-index {
+        display: flex;
+        flex-flow: column;
+    }
+}
+@media (max-width: 475px) {
+    .raidosm{
+        display: flex;
+        text-align: center;
+        flex-flow: column;
+    }
+}
+
+@media (max-width: 720px) {
+    .boxsm {
+        flex-basis: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 475px) {
+    .boxxsm {
+        flex-basis: calc(100%);
+    }
+}
+.main-contact{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+
+}
+
+.bmargin10px{
+    margin-bottom: 10px;
+
+}
+#aaa{
+    height: 200px;
+    width: -webkit-fill-available;
+}
+#submit{
+    flex-basis:50%;
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
